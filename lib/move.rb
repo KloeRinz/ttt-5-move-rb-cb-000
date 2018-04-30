@@ -4,13 +4,12 @@
 
 def input_to_index(input)
   index = (input.to_i) - 1
-
+end
   def move(array, index, value="X")
 
 
       board = [" ", " ", " ", " ", " ", " ", " ", " ", " ", " "]
       board[index] = value
-  end
 end
       def display_board(board)
         puts " #{board[0]} | #{board[1]} | #{board[2]} "
