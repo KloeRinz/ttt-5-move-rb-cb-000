@@ -20,5 +20,5 @@ end
 
       end
 
-move(board, )
+move(board, 0)
 display_board(board)
