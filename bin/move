@@ -13,3 +13,38 @@ index = (input.to_i) - 1
 move(board, index, value="X")
 board[index] = value
 display_board(board)
+
+puts "Where would you like to go?"
+input_to_index(input)
+index = (input.to_i) - 1
+move(board, index, value="O")
+board[index] = value
+display_board(board)
+
+puts "Where would you like to go?"
+input_to_index(input)
+index = (input.to_i) - 1
+move(board, index, value="X")
+board[index] = value
+display_board(board)
+
+puts "Where would you like to go?"
+input_to_index(input)
+index = (input.to_i) - 1
+move(board, index, value="O")
+board[index] = value
+display_board(board)
+
+puts "Where would you like to go?"
+input_to_index(input)
+index = (input.to_i) - 1
+move(board, index, value="X")
+board[index] = value
+display_board(board)
+
+puts "Where would you like to go?"
+input_to_index(input)
+index = (input.to_i) - 1
+move(board, index, value="O")
+board[index] = value
+display_board(board)
